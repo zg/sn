@@ -1,0 +1,170 @@
+body {
+margin: 0px;
+padding: 0px;
+font-family: Arial;
+font-size: 13px;
+}
+
+td {
+font-family: Arial;
+font-size: 13px;
+}
+
+h3 {
+margin: 0px;
+}
+
+form {
+margin: 0px;
+padding: 0px;
+}
+
+.container .title .right input {
+color: #ccc;
+}
+
+p.bordered {
+border:1px solid #ccc;
+}
+
+table {
+border-collapse: collapse;
+table-layout: fixed;
+word-wrap: break-word;
+}
+
+table th {
+font-size:13px;
+}
+
+.container {
+margin: 0px auto;
+width: 750px;
+border: 1px solid #ccc;
+border-width: 0px 1px 1px 1px;
+}
+
+.title {
+padding: 2px;
+font-size: 20px;
+background: #eee;
+border-bottom: 1px solid #ccc;
+}
+
+.menu {
+padding: 5px 0px 5px 0px;
+border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+font-family:Verdana;
+font-size:11px;
+color:#444;
+padding: 5px 10px 5px 10px;
+text-decoration:none;
+}
+
+.menu a:hover {
+background:#eee;
+}
+
+.content {
+padding: 3px;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
+}
+
+.footer {
+font-family:Verdana;
+font-size:11px;
+padding: 3px;
+background: #eee;
+border-top: 1px solid #ccc;
+}
+
+.profile_title {
+font-size: 15px;
+font-weight: bold;
+}
+
+.profile_post {
+margin: 5px;
+padding: 3px;
+border: 1px solid #ccc;
+word-wrap: break-word;
+}
+
+.error_message {
+padding:5px;
+font-weight: bold;
+border:1px solid #f00;
+background-color:#fcc;
+}
+
+.success_message {
+padding:5px;
+font-weight:bold;
+border:1px solid #0f0;
+background:#cf9 url('check.png') no-repeat right center;
+}
+
+.image_post img {
+padding:5px;
+border:1px solid #ccc;
+}
+
+span.new_post_links {
+vertical-align:top;
+}
+
+span.new_post_links b {
+margin-right:15px;
+padding:5px;
+border-top:1px solid #ccc;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+
+span.new_post_links b.new_post_selected {
+border-bottom:1px solid #fff;
+}
+
+span.new_post_links b:hover {
+cursor:pointer;
+}
+
+span.new_post {
+margin-top:5px;
+padding:5px;
+display:block;
+border:1px solid #ccc;
+}
+
+span.new_post textarea.status,span.new_post input.link,span.new_post input.image,span.new_post input.video,span.new_post textarea.reply {
+font-family:Arial;
+padding:3px;
+width:100%;
+height:50px;
+}
+
+span.new_post input.link {
+font-size:20px;
+}
+
+span.new_post p {
+display:inline;
+}
+
+span.new_post span.submit_button {
+float:right;
+}
+
+textarea.input_gray,input.input_gray {
+color:#ccc;
+}
